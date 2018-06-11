@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+  <div id="inputContainer">
+
+    <div id="taskInputContainer">
+      <label>Enter Task</label>
+      <input id="taskInput" type="text" placeholder="input task">
+      <input id="priorityInput" type="text" placeholder="priority input">
+      <input id="dateInput" type="text" placeholder="input date">
+      <button id="addTaskBtn">Add</button>
+      <button id="getTasksBtn">Get Tasks</button>
+    </div>
+
+    <div id="pendingTasks">
+      <h3>Pending Tasks</h3>
+      <ul id="taskList">
+      </ul>
+    </div>
+
+    <div id="completedTasks">
+      <h3>Completed Tasks</h3>
+      <ul id="completedTaskList">
+      </ul>
+    </div>
+
+
+  </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+
+<script src="site.js"></script>
+
+</html>
