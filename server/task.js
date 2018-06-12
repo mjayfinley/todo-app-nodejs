@@ -4,6 +4,7 @@ class Task {
     this.title = title
     this.priority = priority
     this.dateCreated = dateCreated
+    this.taskID = 0
     this.dateCompleted = ''
     this.isCompleted = false
   }

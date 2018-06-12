@@ -16,9 +16,11 @@ function getTask() {
                       <p>Task: ${json[item].title}</p>
                       <p>Priority: ${json[item].priority}</p>
                       <p>Date: ${json[item].dateCreated}</p>
+                      <button onclick="deleteTask('${json[item].taskID}')">Remove</button>
                     </li>`
       taskList.innerHTML += liItem
     })
+
   })
 }
 
