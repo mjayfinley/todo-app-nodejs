@@ -23,7 +23,7 @@ app.get('/tasks',function(req,res){
 app.post('/tasks',function(req,res){
   let addTask = new Task(req.body.title,req.body.priority,req.body.dateCreated,req.body.dateCompleted,req.body.isCompleted)
   tasks.push(addTask)
-  res.json(tasks)
+  res.json(addTask)
 })
 
 app.delete('/tasks',function(req,res){
